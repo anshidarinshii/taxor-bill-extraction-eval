@@ -1,0 +1,158 @@
+{
+  "bill_01": {
+    "gemini": {
+      "parsed": {
+        "vendor": "Kar Klinik",
+        "invoice_number": "3409",
+        "date": "2026-01-22",
+        "amount": 1320,
+        "currency": "INR",
+        "gst_details": "GSTIN: 32AFAPJ3739G1ZT"
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=86 candidates_tokens_details=None prompt_token_count=1255 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1064\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=907 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2248 traffic_type=None"
+    }
+  },
+  "bill_02": {
+    "gemini": {
+      "parsed": {
+        "vendor": "VINAYAKA STORE",
+        "invoice_number": "207",
+        "date": "2025-03-06",
+        "amount": 50,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=68 candidates_tokens_details=None prompt_token_count=1279 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n), ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1088\n)] thoughts_token_count=689 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2036 traffic_type=None"
+    }
+  },
+  "bill_03": {
+    "gemini": {
+      "parsed": {
+        "vendor": "Surendra Jewellers",
+        "invoice_number": "26",
+        "date": "2023-09-23",
+        "amount": 8652,
+        "currency": "INR",
+        "gst_details": "GSTIN: 09GZHPS8892C1ZJ, CGST @ 1.5%: 126, SGST @ 1.5%: 126"
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=119 candidates_tokens_details=None prompt_token_count=1298 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1107\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=449 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=1866 traffic_type=None"
+    }
+  },
+  "bill_04": {
+    "gemini": {
+      "parsed": {
+        "vendor": "Alwin Tailors",
+        "invoice_number": "7847",
+        "date": "2022-07-25",
+        "amount": 950,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=70 candidates_tokens_details=None prompt_token_count=1255 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n), ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1064\n)] thoughts_token_count=515 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=1840 traffic_type=None"
+    }
+  },
+  "bill_05": {
+    "gemini": {
+      "parsed": {
+        "vendor": "AL-MARIYAM DATES & DRY FRUITS",
+        "invoice_number": "001",
+        "date": "2025-04-16",
+        "amount": 3500,
+        "currency": "INR",
+        "gst_details": "GSTIN: 09CGVPA8581K2ZO, CGST 6%: 187, SGST 6%: 187"
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=115 candidates_tokens_details=None prompt_token_count=1283 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1092\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=780 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2178 traffic_type=None"
+    }
+  },
+  "bill_06": {
+    "gemini": {
+      "parsed": {
+        "vendor": "PERFECT COMPUTERS",
+        "invoice_number": "411",
+        "date": null,
+        "amount": null,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=61 candidates_tokens_details=None prompt_token_count=1264 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1073\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=513 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=1838 traffic_type=None"
+    }
+  },
+  "bill_07": {
+    "gemini": {
+      "parsed": {
+        "vendor": "ADIBANEE",
+        "invoice_number": "3743",
+        "date": "2021-02-18",
+        "amount": 11100,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=72 candidates_tokens_details=None prompt_token_count=1283 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1092\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=682 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2037 traffic_type=None"
+    }
+  },
+  "bill_08": {
+    "gemini": {
+      "parsed": {
+        "vendor": "TATA STARBUCKS PRIVATE LTD.",
+        "invoice_number": "TSPLHAR 17464",
+        "date": null,
+        "amount": 953,
+        "currency": "INR",
+        "gst_details": "GST NO. 06AAECT0606Q1Z6"
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=86 candidates_tokens_details=None prompt_token_count=1255 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1064\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=839 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2180 traffic_type=None"
+    }
+  },
+  "bill_09": {
+    "gemini": {
+      "parsed": {
+        "vendor": "Varnamm",
+        "invoice_number": "471",
+        "date": "2022-03-19",
+        "amount": 8520,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=55 candidates_tokens_details=None prompt_token_count=1283 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n), ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1092\n)] thoughts_token_count=509 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=1847 traffic_type=None"
+    }
+  },
+  "bill_10": {
+    "gemini": {
+      "parsed": {
+        "vendor": "VISHAL PUNJABI VAISHNO BHOJANALYA",
+        "invoice_number": "1687",
+        "date": "2007-05-22",
+        "amount": 146,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=80 candidates_tokens_details=None prompt_token_count=1283 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1092\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=625 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=1988 traffic_type=None"
+    }
+  },
+  "bill_11": {
+    "gemini": {
+      "parsed": {
+        "vendor": "HOTEL SAGAR VIEW",
+        "invoice_number": "05344",
+        "date": "7-2",
+        "amount": 425,
+        "currency": "INR",
+        "gst_details": "L.T. No. BLP-1520, S.T. No. BIL-III-1441, Tin No. 02120200437"
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=109 candidates_tokens_details=None prompt_token_count=1283 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n), ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1092\n)] thoughts_token_count=675 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2067 traffic_type=None"
+    }
+  },
+  "bill_12": {
+    "gemini": {
+      "parsed": {
+        "vendor": "BALAJI CAUVERY SILK, ARTS & CRAFTS EMPORIUM",
+        "invoice_number": "582",
+        "date": "2024-12-22",
+        "amount": 25478,
+        "currency": "INR",
+        "gst_details": "GSTIN: 37AAQFB1546A1ZP, CGST: 1529, SGST: 1529"
+      },
+      "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=119 candidates_tokens_details=None prompt_token_count=1293 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1102\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=648 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2060 traffic_type=None"
+    }
+  }
+}
