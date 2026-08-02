@@ -1,0 +1,13 @@
+bill_id,vendor,invoice_number,date,amount,currency,gst_details
+bill_01,Kar Klinik,3409,2026-01-22,1300.00,INR,GSTIN printed but no CGST/SGST breakdown shown
+bill_02,Vinayaka Store,207,2025-03-06,50.00,INR,
+bill_03,Surendra Jewellers,26,2023-09-23,8652.00,INR,CGST 1.5% (126) + SGST 1.5% (126)
+bill_04,Alwin Tailors,7847,,950.00,INR,
+bill_05,Al-Mariyam Dates & Dry Fruits,001,2025-04-16,3500.00,INR,CGST 6% (187) + SGST 6% (187)
+bill_06,Perfect Computers,411,,,INR,
+bill_07,Adibanee,3193,2021-12-18,11100.00,INR,
+bill_08,Tata Starbucks Private Ltd,TSPLHAR 17464,,953.00,INR,CGST+SGST 5% (rate shown; store: DLF Cyber Park Sector-20 Gurugram)
+bill_09,Varnamm,471,2022-03-19,8520.00,INR,no GST info shown; informal handwritten bill
+bill_10,Vishal Punjabi Vaishno Bhojanalya,1687,2007-05-22,146.00,INR,none visible; cash bill
+bill_11,Hotel Sagar View,05344,,425.00,INR,taxes line shown (20) but not itemized as CGST/SGST
+bill_12,Balaji Cauvery Silk Arts & Crafts Emporium,582,2024-12-27,25478.00,INR,CGST 1529 + SGST 1529 shown but rate% left blank on bill
