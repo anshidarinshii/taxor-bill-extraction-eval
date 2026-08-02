@@ -13,6 +13,7 @@ try:
     print("  GEMINI OK:", resp.text.strip())
 except Exception as e:
     print("  GEMINI FAILED:", e)
+    
 print("\nTesting OpenAI key...")
 try:
     import openai
@@ -24,6 +25,7 @@ try:
     print("  OPENAI OK:", resp.choices[0].message.content.strip())
 except Exception as e:
     print("  OPENAI FAILED:", e)
+
 print("\nTesting Claude key...")
 try:
     import anthropic
@@ -36,7 +38,8 @@ try:
     print("  CLAUDE OK:", resp.content[0].text.strip())
 except Exception as e:
     print("  CLAUDE FAILED:", e)
-    print("\nTesting OpenRouter key...")
+print("\nTesting OpenRouter key...")
+
 try:
     import openai
     client = openai.OpenAI(api_key=os.environ["OPENROUTER_API_KEY"], base_url="https://openrouter.ai/api/v1")
