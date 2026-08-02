@@ -10,6 +10,17 @@
         "gst_details": "GSTIN: 32AFAPJ3739G1ZT"
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=86 candidates_tokens_details=None prompt_token_count=1255 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1064\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=907 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2248 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "Kar Klinik",
+        "invoice_number": null,
+        "date": "2026-01-22",
+        "amount": 1300,
+        "currency": null,
+        "gst_details": "GSTIN : 32AFAPJ3739G1ZT"
+      },
+      "usage": "CompletionUsage(completion_tokens=7472, prompt_tokens=1397, total_tokens=8869, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=5066, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_02": {
@@ -23,6 +34,17 @@
         "gst_details": null
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=68 candidates_tokens_details=None prompt_token_count=1279 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n), ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1088\n)] thoughts_token_count=689 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2036 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "VINAYAKA STORE",
+        "invoice_number": "207",
+        "date": "2025-03-06",
+        "amount": 50,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "CompletionUsage(completion_tokens=741, prompt_tokens=3501, total_tokens=4242, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=472, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_03": {
@@ -36,6 +58,17 @@
         "gst_details": "GSTIN: 09GZHPS8892C1ZJ, CGST @ 1.5%: 126, SGST @ 1.5%: 126"
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=119 candidates_tokens_details=None prompt_token_count=1298 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1107\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=449 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=1866 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "Surendra Jewellers",
+        "invoice_number": "26",
+        "date": "2023-09-23",
+        "amount": 8400,
+        "currency": "INR",
+        "gst_details": "CGST @ 1.5%, SGST @ 1.5%, IGST @"
+      },
+      "usage": "CompletionUsage(completion_tokens=1829, prompt_tokens=542, total_tokens=2371, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=1178, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_04": {
@@ -49,6 +82,17 @@
         "gst_details": null
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=70 candidates_tokens_details=None prompt_token_count=1255 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n), ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1064\n)] thoughts_token_count=515 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=1840 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "Alwin Tailors",
+        "invoice_number": "7847",
+        "date": "2023-07-25",
+        "amount": 950,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "CompletionUsage(completion_tokens=4549, prompt_tokens=1397, total_tokens=5946, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=3242, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_05": {
@@ -62,6 +106,17 @@
         "gst_details": "GSTIN: 09CGVPA8581K2ZO, CGST 6%: 187, SGST 6%: 187"
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=115 candidates_tokens_details=None prompt_token_count=1283 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1092\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=780 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2178 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "AL-MARIYAM DATES & DRY FRUITS",
+        "invoice_number": "003",
+        "date": "16-4-025",
+        "amount": 3500,
+        "currency": null,
+        "gst_details": "Add. CGST 6% 187; Add. SGST 6% 187; Tax Amount: GST; Total Amount After Tax 3500"
+      },
+      "usage": "CompletionUsage(completion_tokens=2973, prompt_tokens=463, total_tokens=3436, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=2236, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_06": {
@@ -75,6 +130,17 @@
         "gst_details": null
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=61 candidates_tokens_details=None prompt_token_count=1264 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1073\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=513 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=1838 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "PERFECT COMPUTERS",
+        "invoice_number": "411",
+        "date": null,
+        "amount": 8720,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "CompletionUsage(completion_tokens=1895, prompt_tokens=554, total_tokens=2449, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=1251, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_07": {
@@ -88,6 +154,17 @@
         "gst_details": null
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=72 candidates_tokens_details=None prompt_token_count=1283 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1092\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=682 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2037 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "ADIBANEE",
+        "invoice_number": "3193",
+        "date": "2021-02-18",
+        "amount": 11100,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "CompletionUsage(completion_tokens=1444, prompt_tokens=463, total_tokens=1907, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=1009, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_08": {
@@ -101,6 +178,17 @@
         "gst_details": "GST NO. 06AAECT0606Q1Z6"
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=86 candidates_tokens_details=None prompt_token_count=1255 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1064\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=839 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2180 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "TATA STARBUCKS PRIVATE LTD.",
+        "invoice_number": "TSPLHAR 17464",
+        "date": null,
+        "amount": 953,
+        "currency": "INR",
+        "gst_details": "Tax (CGST+SGST) 57"
+      },
+      "usage": "CompletionUsage(completion_tokens=1565, prompt_tokens=611, total_tokens=2176, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=1168, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_09": {
@@ -114,6 +202,17 @@
         "gst_details": null
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=55 candidates_tokens_details=None prompt_token_count=1283 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n), ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1092\n)] thoughts_token_count=509 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=1847 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "Varnamm",
+        "invoice_number": "471",
+        "date": "2022-03-19",
+        "amount": 8520,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "CompletionUsage(completion_tokens=8341, prompt_tokens=470, total_tokens=8811, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=5335, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_10": {
@@ -127,6 +226,17 @@
         "gst_details": null
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=80 candidates_tokens_details=None prompt_token_count=1283 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1092\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=625 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=1988 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "VISHAL PUNJABI VAISHNO BHOJANALYA",
+        "invoice_number": "1687",
+        "date": "2002-05-22",
+        "amount": 146,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "CompletionUsage(completion_tokens=490, prompt_tokens=477, total_tokens=967, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=276, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_11": {
@@ -140,6 +250,17 @@
         "gst_details": "L.T. No. BLP-1520, S.T. No. BIL-III-1441, Tin No. 02120200437"
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=109 candidates_tokens_details=None prompt_token_count=1283 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n), ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1092\n)] thoughts_token_count=675 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2067 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "HOTEL SAGAR VIEW",
+        "invoice_number": "BIL-III-1441",
+        "date": "7-2",
+        "amount": 1425,
+        "currency": "INR",
+        "gst_details": null
+      },
+      "usage": "CompletionUsage(completion_tokens=3122, prompt_tokens=572, total_tokens=3694, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=2016, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   },
   "bill_12": {
@@ -153,6 +274,17 @@
         "gst_details": "GSTIN: 37AAQFB1546A1ZP, CGST: 1529, SGST: 1529"
       },
       "usage": "cache_tokens_details=None cached_content_token_count=None candidates_token_count=119 candidates_tokens_details=None prompt_token_count=1293 prompt_tokens_details=[ModalityTokenCount(\n  modality=<MediaModality.IMAGE: 'IMAGE'>,\n  token_count=1102\n), ModalityTokenCount(\n  modality=<MediaModality.TEXT: 'TEXT'>,\n  token_count=191\n)] thoughts_token_count=648 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=2060 traffic_type=None"
+    },
+    "openrouter": {
+      "parsed": {
+        "vendor": "BALAJI CAUVERY SILK, ARTS & CRAFTS EMPORIUM",
+        "invoice_number": "582",
+        "date": "2024-12-22",
+        "amount": 25478,
+        "currency": null,
+        "gst_details": "Add :CGST % 1529- Add :SGST % 1529-"
+      },
+      "usage": "CompletionUsage(completion_tokens=12416, prompt_tokens=463, total_tokens=12879, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=0, reasoning_tokens=8852, rejected_prediction_tokens=None, image_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cache_write_tokens=0, cached_tokens=0, video_tokens=0), cost=0, is_byok=False, cost_details={'upstream_inference_cost': 0, 'upstream_inference_prompt_cost': 0, 'upstream_inference_completions_cost': 0})"
     }
   }
 }

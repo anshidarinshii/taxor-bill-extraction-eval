@@ -64,10 +64,32 @@ def call_openai(image_path):
     )
     return resp.choices[0].message.content, str(resp.usage)
 
+def call_openrouter(image_path):
+    import openai  # OpenRouter uses the same OpenAI-compatible client, just a different base_url
+    client = openai.OpenAI(
+        api_key=os.environ["OPENROUTER_API_KEY"],
+        base_url="https://openrouter.ai/api/v1"
+    )
+    b64 = encode_image(image_path)
+    ext = image_path.suffix.lower()
+    mime = "image/png" if ext == ".png" else "image/jpeg"
+    resp = client.chat.completions.create(
+        model="nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",  # confirmed free vision model on OpenRouter
+        messages=[{
+            "role": "user",
+            "content": [
+                {"type": "text", "text": EXTRACTION_PROMPT},
+                {"type": "image_url", "image_url": {"url": f"data:{mime};base64,{b64}"}}
+            ]
+        }]
+    )
+    return resp.choices[0].message.content, str(resp.usage)
+
 # Comment out any model you're not using
 MODELS = {
     "gemini": call_gemini,
-    #"claude": call_claude,
+    "openrouter": call_openrouter,
+    # "claude": call_claude,
     # "openai": call_openai,
 }
 
@@ -82,22 +104,49 @@ def clean_json(text):
     except Exception:
         return {"_raw": text, "_parse_error": True}
 
-all_results = {}
+results_path = RESULTS_DIR / "raw_extractions.json"
+
+# Resume from a previous run if the file already has results, instead of
+# starting over from scratch every time
+if results_path.exists():
+    with open(results_path) as f:
+        all_results = json.load(f)
+else:
+    all_results = {}
+
 for bill_path in sorted(DATASET_DIR.glob("bill_*.*")):
     bill_id = bill_path.stem
-    all_results[bill_id] = {}
+    if bill_id not in all_results:
+        all_results[bill_id] = {}
     for model_name, fn in MODELS.items():
-        try:
-            raw_text, usage = fn(bill_path)
-            parsed = clean_json(raw_text)
-            all_results[bill_id][model_name] = {"parsed": parsed, "usage": usage}
-            print(f"{bill_id} / {model_name}: OK")
-        except Exception as e:
-            all_results[bill_id][model_name] = {"error": str(e)}
-            print(f"{bill_id} / {model_name}: FAILED — {e}")
-        time.sleep(13)
+        if model_name in all_results[bill_id] and "error" not in all_results[bill_id][model_name]:
+            print(f"{bill_id} / {model_name}: already done, skipping")
+            continue
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                raw_text, usage = fn(bill_path)
+                parsed = clean_json(raw_text)
+                all_results[bill_id][model_name] = {"parsed": parsed, "usage": usage}
+                print(f"{bill_id} / {model_name}: OK")
+                break
+            except Exception as e:
+                if "RESOURCE_EXHAUSTED" in str(e) or "429" in str(e):
+                    wait = 20 * (attempt + 1)
+                    print(f"{bill_id} / {model_name}: rate limited, waiting {wait}s (attempt {attempt+1}/{max_retries})")
+                    time.sleep(wait)
+                    continue
+                all_results[bill_id][model_name] = {"error": str(e)}
+                print(f"{bill_id} / {model_name}: FAILED — {e}")
+                break
+        else:
+            all_results[bill_id][model_name] = {"error": "max retries exceeded"}
 
-with open(RESULTS_DIR / "raw_extractions.json", "w") as f:
-    json.dump(all_results, f, indent=2)
+        # Save after every single call, not just at the very end — so
+        # stopping the script early (Ctrl+C) never loses completed work
+        with open(results_path, "w") as f:
+            json.dump(all_results, f, indent=2)
+
+        time.sleep(13)  # stay under Gemini free tier's 5 requests/minute limit
 
 print("\nDone. Results saved to results/raw_extractions.json")
