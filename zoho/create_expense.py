@@ -9,13 +9,16 @@ def get_access_token():
         "client_secret": os.environ["ZOHO_CLIENT_SECRET"],
         "grant_type": "refresh_token"
     })
-    return resp.json()["access_token"]
+    data = resp.json()
+    if "access_token" not in data:
+        raise Exception(f"Zoho token refresh failed: {data}")
+    return data["access_token"]
 
 def create_expense(extracted):
     token = get_access_token()
     headers = {"Authorization": f"Zoho-oauthtoken {token}"}
     payload = {
-        "account_id": "YOUR_EXPENSE_ACCOUNT_ID",  # copy from Zoho Books > Accountant > Chart of Accounts
+        "account_id": "4019194000000033057",  # copy from Zoho Books > Accountant > Chart of Accounts
         "date": extracted["date"],
         "amount": extracted["amount"],
         "vendor_name": extracted["vendor"],
@@ -23,13 +26,21 @@ def create_expense(extracted):
         "description": f"GST: {extracted.get('gst_details')}"
     }
     resp = requests.post(
-        f"https://books.zoho.in/api/v3/expenses?organization_id={os.environ['ZOHO_ORG_ID']}",
+        f"https://www.zohoapis.in/books/v3/expenses?organization_id={os.environ['ZOHO_ORG_ID']}",
         headers=headers, json=payload
     )
     return resp.json()
 
 if __name__ == "__main__":
-    # Example manual test — replace with real extracted values from your results
-    example = {"date": "2024-03-14", "amount": 450.00, "vendor": "Sharma General Store",
-               "invoice_number": "", "gst_details": "none"}
-    print(create_expense(example))
+    import json
+    with open("../results/raw_extractions.json") as f:
+        results = json.load(f)
+
+    # Pick which bills and which model's output to push — adjust as needed
+    bills_to_push = ["bill_01", "bill_02", "bill_03"]
+    model_to_use = "gemini"
+
+    for bill_id in bills_to_push:
+        parsed = results[bill_id][model_to_use]["parsed"]
+        response = create_expense(parsed)
+        print(bill_id, "->", response)
